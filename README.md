@@ -12,7 +12,7 @@ The steps of the algorithm for splitting the stem and ending are as follows.
 
 3. Selection of the ending e(w) of the length L[e(w)] for analyzed word w.
 
-4.  Seach e(w) on matching with the ending from the list of endings. If it matches, then the stem of the word is determined: st(w) = w – e(w). Go to step 7.
+4.  Search e(w) on matching with the ending from the list of endings. If it matches, then the stem of the word is determined: st(w) = w – e(w). Go to step 7.
 
 5. Otherwise, the calculated length of the ending of the analyzed word is decreased by one: L[e(w)] = L[e(w)] - 1.
 
