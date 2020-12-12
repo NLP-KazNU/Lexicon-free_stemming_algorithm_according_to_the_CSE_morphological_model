@@ -19,16 +19,27 @@ Instructions for use
 
 To run a python file (file with the .py extension) you need:
 1) open command prompt (CMD)
+
 2) enter the following command (path to the folder where the python file is located):
+
 cd C: \ Users \ ASER \ Desktop \ myprogs \ stemming \ github
+
 3) run the python file specifying the file name:
+
 stemming-for-Turkic-languages.py
+
 4) then enter the name of the files that are requested to run the program
+
 4.1) the name of the excel (.xls) file where the affixes are saved
+
 Name of the affix file: affixes.xls
+
 4.2) the name of the text (.txt) file where the source text is saved
+
 Name of the text file: text.txt
+
 4.3) the name of the text (.txt) file where you will write the result (text after the stemming process)
+
 Name of the output file (result): output_results.txt
 
 After executing these commands, an inscription is displayed on the screen where it says that the process was successfully completed and the results were saved
