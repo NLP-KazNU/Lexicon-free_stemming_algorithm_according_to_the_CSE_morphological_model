@@ -14,6 +14,7 @@ In the beginning of the algorithm, a given word is checked in a list of language
 To ensure a higher quality of stemming algorithm, a version of the stemming algorithm has been developed using a list of language's stems (stems-lexicon).
 
 
+
 Instructions for use
 
 To run a python file (file with the .py extension) you need:
