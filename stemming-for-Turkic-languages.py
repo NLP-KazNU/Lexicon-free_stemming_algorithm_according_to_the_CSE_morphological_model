@@ -35,6 +35,8 @@ def stem(word, affixes):
                         stems.append(stem)
                     elif affix == '' or word_affix == '':
                         stems.append(word)
+    else:
+        stems.append(word)
                         
     return stems[0]
     
