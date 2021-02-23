@@ -1,4 +1,5 @@
-# Lexicon-free stemming algorithm according to the CSE (Complete Set of Endings) morphology model
+# Lexicon-free stemming algorithm according to the CSE (Complete Set of Endings) morphology model.
+Ualsher Tukeyev, Aliya Turganbayeva, Aidana Karibayeva
 
 Main concept of lexicon-free stemming on CSE-model of morphology is described below. In first to find an assumed ending of maximum length for the given word, which will be two symbols less than the length of the word. It is assumed that the stem cannot contain less than two symbols. The assumed ending of given word is searched in a list of endings. If the assumed ending not found in the list of endings, then one decreases the length of the assumed ending.  Accordingly, the assumed ending of the word is decreased by one symbol on the left side, and this symbol is added to the assumed stem of the word. The received ending is searched again in the list of endings. Above steps doing until the assumed ending will found in the list of endings or the length of the assumed ending will equal to zero.
 In the following, e(w) is the ending of analyzed word w, st(w) is the stem of w, L(w) is the length of w, L[e(w)] is the calculated length of the ending.
